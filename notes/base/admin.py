@@ -4,7 +4,7 @@ from .models import Note
 
 class NoteAdmin(admin.ModelAdmin):
     list_display = ["title", "category", "created", "updated"]
-    search_fields = ["title", "category"]
-    list_filter = ["category", "created", "updated"]
+    #search_fields = ["title", "category"]
+    #list_filter = ["category", "created", "updated"]
 
 admin.site.register(Note, NoteAdmin)
