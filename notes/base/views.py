@@ -7,6 +7,7 @@ from rest_framework.decorators import api_view
 # Create your views here.
 @api_view(["GET", "POST"])
 def notes(request):
-    notes = Note.objects.all()
-    serializer = NoteSerializer(notes, many=True)
-    return Response(serializer.data)
+    if request.method == "GET":
+        notes = Note.objects.all()
+        serializer = NoteSerializer(notes, many=True)
+        return Response(serializer.data)
