@@ -1,7 +1,5 @@
 from django.shortcuts import render
-#from notes.base.models import Note
 from .models import Note
-#from notes.base.serializers import NoteSerializer
 from .serializers import NoteSerializer
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
