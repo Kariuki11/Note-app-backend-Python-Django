@@ -3,6 +3,7 @@ from .import views
 
 urlpatterns = [
     path('notes/', views.notes, name='notes'),
-    #path("notes/<slug:slug", views.note_detail, name="note-detail"),
     path('notes/<slug:slug>/', views.note_detail, name='note-detail'),
 ]
+
+#
