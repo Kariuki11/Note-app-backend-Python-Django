@@ -21,3 +21,13 @@ def notes(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+ 
+ @api_view({})   
+def note_detail(request, slug):
+    try:
+        note = Note.objects.get(slug=slug)
+    except Note.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+    
+    serializer = NoteSerializer(note)
+    return Response(serializer.data)
