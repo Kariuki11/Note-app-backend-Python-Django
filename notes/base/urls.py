@@ -10,3 +10,4 @@ urlpatterns = [
 # ENDPOINTS.
 # GET_ALL_NOTES_and_CREATE_NEW_NOTE = "127.0.0.1:8008/notes/"
 # GET_SPECIFIC_NOTE = "http://127.0.0.1:8008/notes/note-slug"
+# SEARCH_NOTES = "127.0.0.1:8008/notes-search/?search=meeting"
