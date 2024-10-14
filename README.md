@@ -25,7 +25,7 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/notepad-app.git
+git clone https://github.com/Kariuki11/notepad-app.git
 Navigate to the project directory:
 
 bash
@@ -69,5 +69,14 @@ If you have any questions or feedback, feel free to reach out at:
 
 Email: recholkibebe@gmail.com
 GitHub: recholkibebe
+<<<<<<< HEAD
 Email: sandra.wwarugongo@gmail.com
 GitHub: sandrawarugongo
+=======
+
+Kenneth Kariuki
+@Kariuki11
+irungukenneth433@gmail.com
+
+
+>>>>>>> refs/remotes/origin/main
