@@ -70,6 +70,7 @@ If you have any questions or feedback, feel free to reach out at:
 Email: recholkibebe@gmail.com
 GitHub: recholkibebe
 <<<<<<< HEAD
+Sandra Warugongo
 Email: sandra.wwarugongo@gmail.com
 GitHub: sandrawarugongo
 =======
