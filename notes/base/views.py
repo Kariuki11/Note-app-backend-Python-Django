@@ -1,3 +1,4 @@
+
 from django.shortcuts import render
 from .models import Note
 from .serializers import NoteSerializer
@@ -6,7 +7,7 @@ from rest_framework.decorators import api_view
 from django.db.models import Q
 from rest_framework import status
 
-# Create your views here.
+
 
 @api_view(['GET'])
 def search_notes(request):
