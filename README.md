@@ -69,21 +69,19 @@ If you have any questions or feedback, feel free to reach out at:
 
 Email: recholkibebe@gmail.com
 GitHub: recholkibebe
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 Sandra Warugongo
 Email: sandra.wwarugongo@gmail.com
 GitHub: sandrawarugongo
-=======
-=======
->>>>>>> fd134c7a399497ee7f557c7b8927eaf3696ab401
+
+John karenju690@gmail.com
++254742199073
+@karenjuNjeru
+#portfolioproject
 
 Kenneth Kariuki
 @Kariuki11
 irungukenneth433@gmail.com
 
 
-<<<<<<< HEAD
->>>>>>> refs/remotes/origin/main
-=======
->>>>>>> fd134c7a399497ee7f557c7b8927eaf3696ab401
+
